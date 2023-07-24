@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora&family=Poppins&display=swap');
+
+body {
+  color: #575f7D;
+  font-family: 'Lora', serif;
+  line-height: 40px;
+  background-color: darkslategray;
+  font-weight: bold;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: darkslategray;
+  font-weight: 600;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h1 {
+  color: Black ;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+h2 {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgb(218, 211, 73);
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.introduction {
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 40px 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.follow {
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+#btn-findoutmore {
+  background-color: darkslategray;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#btn-findoutmore:hover {
+  background-color: rgb(245, 236, 63);
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
